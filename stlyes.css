@@ -1,0 +1,184 @@
+li{
+    list-style-type: none;
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 170px;
+    color: blue;
+}
+h1{
+    color:black;
+    position: relative;
+    left: 100px;
+   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.social-media{
+    float: left;
+}
+.fa-twitter{
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+    bottom: 40px;
+    right: 130px;
+}
+.fa-facebook{
+    float: right;
+    text-decoration: none;
+    position: relative;
+    bottom: 40px;
+    right: 120px;
+    color:blue;
+}
+.fa-linkedin{
+    float: right;
+    text-decoration: none;
+    position: relative;
+    bottom: 40px;
+    right: 75px;
+    color: blue;
+}
+.fa-github{
+    float: right;
+    text-decoration: none;
+    position: relative;
+    bottom: 40px;
+    right: 40px;
+    color:blue;
+}
+.one{
+  background-color:normal;
+  height: 600px;
+}
+.one p{
+  position: relative;
+  left: 100px;
+  font-size: 20px;
+  bottom: 20px;
+}
+.one h1{
+    color:skyblue;
+    position: absolute;
+    top: 180px;
+    font-size: 40px;
+    
+}
+.one h2{
+    color: darkblack;
+    position: relative;
+    top: 230px;
+    font-size: 40px;
+    left: 92px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.one .two{
+  position: relative;
+  top: 200px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.one .four{
+  position: relative;
+  top: 130px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.one .five{
+  position: relative;
+  top: 120px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.one button{
+  position: relative;
+  top: 130px;
+  width: 100px;
+  height: 40px;
+  left: 100px;
+  background-color: chartreuse;
+  border-radius: 5px;
+}
+.one button:hover{
+  background-color:orange;
+}
+.mucyo{
+  width: 100%;
+  height: 500px;
+  background-color: azure;
+}
+.mucyo h1{
+  position: relative;
+  left: 80px;
+  top: 80px;
+}
+.mucyo .elie {
+  position: relative;
+  top: 80px;
+  left: 80px;
+  font-size: 18px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mucyo .joseph{
+  position: relative;
+  top: 80px;
+  left: 80px;
+  font-size: 18px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mucyo .payet{
+  position: relative;
+  top: 80px;
+  left: 80px;
+  font-size: 18px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mucyo .rutamu{
+  position: relative;
+  top: 80px;
+  left: 80px;
+  font-size: 18px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.mucyo .quintano{
+  position: relative;
+  top: 80px;
+  left: 80px;
+  font-size: 18px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.mucyo .seth{
+  position: relative;
+  top: 80px;
+  left: 80px;
+  font-size: 18px; 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.mucyo .pogba{
+  position: relative;
+  left: 980px;
+  bottom: 180px;
+}
+@media screen and (max-width: 768px) {
+    header {
+      text-align: center;
+    }
+  
+    .social-icons {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .social-icons li {
+      margin-bottom: 10px;
+    }
+   .one{
+    width: 100%;
+   }
+  }
+.container{
+    background-color:white;
+    height: 80px;
+  position: fixed;
+  top: 0px;
+  left: -5px;
+  right: -5px;
+
+}  
