@@ -1,0 +1,61 @@
+li{
+    list-style-type: none;
+    float: right;
+    position: relative;
+    top: 5px;
+    right: 170px;
+    color: blue;
+}
+h1{
+    color:black;
+    position: relative;
+    left: 100px;
+}
+.social-media{
+    float: left;
+}
+.fa-twitter{
+    float: right;
+    list-style-type: none;
+    text-decoration: none;
+    position: relative;
+    bottom: 40px;
+    right: 130px;
+}
+.fa-facebook{
+    float: right;
+    text-decoration: none;
+    position: relative;
+    bottom: 40px;
+    right: 120px;
+    color:blue;
+}
+.fa-linkedin{
+    float: right;
+    text-decoration: none;
+    position: relative;
+    bottom: 40px;
+    right: 75px;
+    color: blue;
+}
+.fa-github{
+    float: right;
+    text-decoration: none;
+    position: relative;
+    bottom: 40px;
+    right: 40px;
+    color:blue;
+}
+.one h1{
+    color:skyblue;
+    position: relative;
+    top: 150px;
+    font-size: 40px;
+}
+.one h2{
+    color: darkblack;
+    position: relative;
+    top: 140px;
+    font-size: 40px;
+    left: 92px;
+}
