@@ -2,14 +2,14 @@ li{
     list-style-type: none;
     float: right;
     position: relative;
-    top: 5px;
+    top: 10px;
     right: 170px;
     color: blue;
 }
 h1{
     color:black;
     position: relative;
-    left: 100px;
+    left: 10px;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
 .social-media{
@@ -22,6 +22,7 @@ h1{
     position: relative;
     bottom: 40px;
     right: 130px;
+    font-size: 25px;
 }
 .fa-facebook{
     float: right;
@@ -53,15 +54,16 @@ h1{
 }
 .one p{
   position: relative;
-  left: 100px;
-  font-size: 20px;
+  left: 280px;
+  font-size: 16px;
   bottom: 20px;
 }
 .one h1{
-    color:skyblue;
+    color:forestgreen;
     position: absolute;
     top: 180px;
     font-size: 40px;
+    left: 280px;
     
 }
 .one h2{
@@ -69,7 +71,7 @@ h1{
     position: relative;
     top: 230px;
     font-size: 40px;
-    left: 92px;
+    left: 280px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .one .two{
@@ -92,8 +94,8 @@ h1{
   top: 130px;
   width: 100px;
   height: 40px;
-  left: 100px;
-  background-color: chartreuse;
+  left: 280px;
+  background-color:normal;
   border-radius: 5px;
 }
 .one button:hover{
@@ -102,77 +104,185 @@ h1{
 .mucyo{
   width: 100%;
   height: 500px;
-  background-color: azure;
+  background-color: normal;
 }
 .mucyo h1{
   position: relative;
-  left: 80px;
+  left: 280px;
   top: 80px;
+  color: forestgreen;
 }
 .mucyo .elie {
   position: relative;
   top: 80px;
-  left: 80px;
-  font-size: 18px;
+  left: 280px;
+  font-size: 16px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .mucyo .joseph{
   position: relative;
   top: 80px;
-  left: 80px;
-  font-size: 18px;
+  left: 280px;
+  font-size: 16px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .mucyo .payet{
   position: relative;
   top: 80px;
-  left: 80px;
-  font-size: 18px;
+  left: 280px;
+  font-size: 16px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .mucyo .rutamu{
   position: relative;
   top: 80px;
-  left: 80px;
-  font-size: 18px;
+  left: 280px;
+  font-size: 16px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .mucyo .quintano{
   position: relative;
   top: 80px;
-  left: 80px;
-  font-size: 18px;
+  left: 280px;
+  font-size: 16px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 .mucyo .seth{
   position: relative;
   top: 80px;
-  left: 80px;
-  font-size: 18px; 
+  left: 280px;
+  font-size: 16px; 
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 .mucyo .pogba{
   position: relative;
-  left: 980px;
+  left: 1100px;
   bottom: 180px;
 }
-@media screen and (max-width: 768px) {
-    header {
-      text-align: center;
-    }
-  
-    .social-icons {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .social-icons li {
-      margin-bottom: 10px;
-    }
-   .one{
-    width: 100%;
-   }
-  }
+.good{
+  width: 100%;
+  position:fixed;
+  height: 60px;
+}
+.good .fa-facebook{
+  position:fixed;
+  font-size: 25px;
+bottom:120px;
+  left: 60px;
+
+}
+.good .fa-twitter{
+  position:fixed;
+  font-size: 25px;
+  bottom:150px;
+  left: 60px;
+}
+.good .fa-github{
+    position:fixed;
+    font-size: 25px;
+    bottom:60px;
+    left:60px;
+
+}
+.good .fa-linkedin{
+  position:fixed;
+  font-size: 25px;
+  bottom:90px;
+  left:60px;
+
+}
+.bad {
+  width: 100%;
+  height: 600px;
+}
+.bad h1{
+  position: relative;
+  left: 280px;
+  color: forestgreen;
+
+}
+.bad p{
+position: relative;
+left: 280px;
+font-size: 16px;
+font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.hhh1{
+  width: 35%;
+  background-color:azure;
+  height: 50%;
+  position: relative;
+  left: 280px;
+}
+.hhh1 .safe{
+  position: relative;
+  left: 120px;
+  top: 60px;
+  color:forestgreen;
+}
+.hhh1 p{
+  position: relative;
+  left: 80px;
+  top: 70px;
+}
+.hhh2{
+  background-color: azure;
+  width: 35%;
+  height: 50%;
+  position: relative;
+  left: 840px;
+  bottom: 320px;
+}
+.hhh2 .peti{
+  position: relative;
+  left: 160px;
+  top: 60px;
+  color:forestgreen;
+}
+.hhh2 p{
+  position: relative;
+  left: 80px;
+  top: 60px;
+}
+.hhh3{
+  width: 35%;
+  height: 50%;
+  position: relative;
+  background-color: azure;
+  left: 280px;
+  bottom:290px;
+}
+.hhh3 .moses{
+  position: relative;
+  left: 120px;
+  top: 70px;
+  color: forestgreen;
+}
+.hhh3 p{
+  position: relative;
+  left:80px;
+  top:70px;
+}
+.hhh4{
+  background-color: azure;
+  position: relative;
+  left: 840px;
+  bottom: 610px;
+  width: 35%;
+  height: 50%;
+}
+.hhh4 .jimy{
+  position: relative;
+  color: forestgreen;
+  top: 70px;
+  left: 140px;
+}
+.hhh4 p{
+  position: relative;
+  left: 80px;
+  top: 80px;
+}
+
 .container{
     background-color:white;
     height: 80px;
@@ -180,5 +290,4 @@ h1{
   top: 0px;
   left: -5px;
   right: -5px;
-
 }  
