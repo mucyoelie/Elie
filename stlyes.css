@@ -24,6 +24,7 @@ h1{
     bottom: 40px;
     right: 130px;
     font-size: 25px;
+    color: blue;
 }
 .fa-facebook{
     float: right;
@@ -183,6 +184,7 @@ bottom:120px;
   font-size: 25px;
   bottom:150px;
   left: 60px;
+  color: blue;
 }
 .good .fa-github{
     position:fixed;
@@ -443,18 +445,21 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   left: 400px;
   top: 80px;
   font-size: 40px;
+  color: blue;
 }
 .fff1 .fa-phone{
   position: relative;
   left: 800px;
   bottom: 130px;
   font-size: 40px; 
+  color: blue;
 }
 .fff1 .fa-map-marker{
   position: relative;
   left: 1180px;
   bottom: 340px;
-  font-size: 40px; 
+  font-size: 40px;
+  color: blue; 
 }
 .fff1 .fff4{
   position: relative;
