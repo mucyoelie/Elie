@@ -479,6 +479,7 @@ body {
   font-size: 16px;
   overflow-x: hidden;
   overflow-y: auto;
+  
 }
 .fff6 .ppp2{
   position: relative;
@@ -509,6 +510,13 @@ body {
   left: 1100px;
   top: -360px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.fff6{
+  background-color: normal;
+  width: 100%;
+  height: 70%;
+  position: relative;
+
 }
 
 
