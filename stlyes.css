@@ -1,4 +1,7 @@
-
+@media only screen and (min-width: 1440px) and (max-width:) {
+  body{
+    width: 100%;
+  }
   li{
     list-style-type: none;
     float: right;
@@ -575,16 +578,7 @@ body {
   bottom: 10%; 
   font-size: x-large;
 }
-
-
-
-
-
-
-
-
-  
-
+}
 
 
 
