@@ -1,58 +1,66 @@
-@media only screen and (min-width: 1440px) and (max-width:) {
-  body{
-    width: 100%;
-  }
+@media (min-width:1440px) and (max-width:1980px)  {
   li{
     list-style-type: none;
     float: right;
     position: relative;
-    top: 10px;
-    right: 170px;
-    color: blue;
+     top: 6%;
+    right: 15%;
+    color:chartreuse;
+    font-size: 150%;
 }
 
 h1{
-    color:black;
+    color:chartreuse;
     position: relative;
-    left: 10px;
+    left: 4%;
    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
 }
+
 .social-media{
     float: left;
+    position: relative;
+    top: 2%;
 }
-.fa-twitter{
+    .rona .fa-twitter{
+
     float: right;
     list-style-type: none;
     text-decoration: none;
     position: relative;
-    bottom: 40px;
-    right: 130px;
-    font-size: 25px;
-    color: blue;
+    bottom: 48px;
+    right: 11%;
+    font-size: 150%;
+    color:chartreuse;
 }
-.fa-facebook{
+    .rona .fa-facebook{
+
     float: right;
     text-decoration: none;
     position: relative;
-    bottom: 40px;
-    right: 120px;
-    color:blue;
+    bottom: 50px;
+    right: 10.5%;
+    color:chartreuse;
+    font-size: 150%;
 }
-.fa-linkedin{
+    .rona .fa-linkedin{
+
     float: right;
     text-decoration: none;
     position: relative;
-    bottom: 40px;
-    right: 75px;
-    color: blue;
+    bottom: 50px;
+    right: 5.6%;
+    color:chartreuse;
+    font-size: 150%;
 }
-.fa-github{
+    .rona .fa-github{
+
     float: right;
     text-decoration: none;
     position: relative;
-    bottom: 40px;
-    right: 40px;
-    color:blue;
+    bottom: 48px;
+    right: 2%;
+    color:chartreuse;
+    font-size: 150%;
 }
 .one{
   background-color:normal;
@@ -62,48 +70,48 @@ h1{
 }
 .one p{
   position: relative;
-  left: 280px;
+  left: 18.4%;
   font-size: 16px;
-  bottom: 20px;
+  bottom: 5%;
 }
 .one h1{
     color:forestgreen;
     position: absolute;
-    top: 180px;
+    top: 25%;
     font-size: 40px;
-    left: 280px;
+    left: 18.4%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 .one h2{
     color: darkblack;
     position: relative;
-    top: 230px;
+    top: 33%;
     font-size: 40px;
-    left: 280px;
+    left: 18.4%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
 }
 .one .two{
   position: relative;
-  top: 200px;
+  top: 28%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .one .four{
   position: relative;
-  top: 130px;
+  top: 17%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .one .five{
   position: relative;
-  top: 120px;
+  top: 17%;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .one button{
   position: relative;
-  top: 130px;
-  width: 100px;
-  height: 40px;
-  left: 280px;
-  background-color:normal;
+  top: 18%;
+  width: 10%;
+  height: 9%;
+  left: 18.4%;
+  background-color:darkslategray;
   border-radius: 5px;
   display: flex;
   flex-wrap: wrap;
@@ -111,8 +119,10 @@ h1{
 .one a{
   text-decoration: none;
   position: relative;
-  top: 20%;
-  left: 10%;
+  top: 30%;
+  left: 12%;
+  color: white;
+  font-weight: bolder;
 
 }
 .one button:hover{
@@ -189,6 +199,8 @@ h1{
   font-size: 25px;
 bottom:120px;
   left: 60px;
+  text-decoration: none;
+  color:chartreuse;
 
 }
 .good .fa-twitter{
@@ -196,13 +208,16 @@ bottom:120px;
   font-size: 25px;
   bottom:150px;
   left: 60px;
-  color: blue;
+  color:chartreuse;
+  text-decoration: none;
 }
 .good .fa-github{
     position:fixed;
     font-size: 25px;
     bottom:60px;
     left:60px;
+    text-decoration: none;
+    color:chartreuse;
 
 }
 .good .fa-linkedin{
@@ -210,13 +225,17 @@ bottom:120px;
   font-size: 25px;
   bottom:90px;
   left:60px;
+  text-decoration: none;
+  color:chartreuse;
 
 }
 .good .fa-instgram{
   position:fixed;
   font-size: 25px;
   bottom:90px;
-  left:60px;  
+  left:60px; 
+  text-decoration: none;
+  color: blue; 
 }
 .bad {
   width: 100%;
@@ -297,18 +316,18 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   top:70px;
 }
 .hhh4{
-  background-color: azure;
+  background-color:azure;
   position: relative;
-  left: 840px;
-  bottom: 610px;
+  left: 55%;
+  bottom: 101%;
   width: 35%;
   height: 50%;
 }
 .hhh4 .jimy{
   position: relative;
   color: forestgreen;
-  top: 70px;
-  left: 140px;
+  top: 25%;
+  left: 20%;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 .hhh4 p{
@@ -318,20 +337,20 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 }
 
 .container{
-    background-color:azure;
-    height: 80px;
+    background-color:darkslategray;
+    height: 12%;
   position: fixed;
-  top: 0px;
-  left: -5px;
-  right: -5px;
+  top: 0%;
+  width: 100%;
+  overflow-x: hidden;
 }  
 .leo{
   width: 100%;
-  height: 400px;
+  height: 40%;
   position: relative;
-  top: 300px;
   background-color: normal;
-  
+  top: 340px; 
+  padding: 0%;
 }
 .leo h1{
   position: relative;
@@ -419,21 +438,21 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 .fff1{
   position: relative;
   width: 100%;
-  height: 600px;
+  height: 800px;
   background-color:normal;
-  top: 290px;
+  top: 40%;
 }
 .fff1 h1{
   position: relative;
   color: forestgreen;
   left: 280px;
-  top: 60px;
+  top: 20%;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 .fff1 p{
   position: relative;
   left: 280px;
-  top: 60px;
+  top: 20%;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
 .fff2{
@@ -442,17 +461,19 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   background-color: aliceblue;
   position: relative;
   left: 950px;
-  bottom: 100px;
+  bottom: 5%;
 }
  .fff2 .fff3{
   position: relative;
   left: 70px;
-  top: 30px;
+  top: 10%;
 
 }
 .fff3 {
   text-decoration:underline;
-  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  position: relative; 
+  
 }
 .fff2 p{
   position: relative;
@@ -465,27 +486,31 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
   left: 400px;
   top: 80px;
   font-size: 40px;
-  color: blue;
+  color:chartreuse;
 }
 .fff1 .fa-phone{
   position: relative;
   left: 800px;
   bottom: 130px;
   font-size: 40px; 
-  color: blue;
+  color:chartreuse;
 }
 .fff1 .fa-map-marker{
   position: relative;
-  left: 1180px;
+  left: 1280px;
   bottom: 340px;
   font-size: 40px;
-  color: blue; 
+  color:chartreuse; 
 }
 .fff1 .fff4{
   position: relative;
   left: 390px;
-  top: 70px;
+  top: 12%;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+.fff6 p{
+  position: relative;
+  top: 10%;
 }
 .fff1 .fff7{
   position: relative;
@@ -495,7 +520,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 }
 .fff1 .fff5{
   position: relative;
-  left: 1150px;
+  left: 1250px;
   bottom: 350px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -526,13 +551,13 @@ body {
 }
 .fff6 .fff8{
   position: relative;
-  left: 1100px;
+  left: 1180px;
   top: -360px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .fff6 .fff9{
   position: relative;
-  left: 1100px;
+  left: 1180px;
   top: -360px;
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -543,41 +568,56 @@ body {
   position: relative;
 
 }
-#bill{
-  background-color: azure;
+.bill{
+  background-color:darkslategray;
   position: relative;
   width: 100%;
   height: 25%;
 }
-#bill #hhh1{
+.bill #hhh1{
   position: relative;
   left: 40%;
   bottom: 40%;
 }
-#bill .fa-facebook{
+.bill #hhh2{
+  position:relative;
+  left:42%;
+}
+.bill .fa-twitter{
   position: relative;
-  right: 51%;
-  bottom: 10%;
+  left: 45%;
+  top: 20%;
+  font-size:x-large;
+  color:chartreuse;
+}
+.bill .fa-facebook{
+  position:relative;
+  left: 46%;
+  top: 20%;
   font-size: x-large;
+  color:chartreuse;
 }
-#bill .fa-twitter{
+.bill .fa-linkedin{
   position: relative;
-  right: 52%;
-  bottom: 10%;
+  left: 47%;
+  top: 20%;
   font-size: x-large;
+  color:chartreuse;
 }
-#bill .fa-linkedin{
+.bill .fa-github{
   position: relative;
-  right: 46%;
-  bottom: 10%;
-  font-size: x-large; 
-}
-#bill .fa-github{
-  position: relative;
-  right: 42%;
-  bottom: 10%; 
+  left: 48%;
+  top: 20%;
   font-size: x-large;
+  color:chartreuse;
 }
+body{
+  background-color: darkslategray;
+}
+tiitle{
+  color:chartreuse;
+}
+
 }
 
 
